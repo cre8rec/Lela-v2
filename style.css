@@ -14,7 +14,7 @@ a{
 }
 
 p{
-    font-size: 16px;
+    font-size: 15px;
     padding-left: 50px;
     padding-right: 50px;
     font-family: 'Poiret One', cursive;
@@ -289,7 +289,7 @@ h1{
     top: 50px;
     transform: rotate(90deg);
     position: absolute;
-    left: -488px;
+    right: 100px;
     top: 751px;
 
 
@@ -301,6 +301,36 @@ h1{
 
 
     @media screen and (max-width: 650px) {
+
+
+
+        p{
+            font-size:16px;
+            margin: 50px
+         
+        }
+
+        .screen{
+            position: relative;
+            top: 0px;
+            height: 600px;
+            transition: ease 1s;
+            width:450px;
+
+            background-color: rgba(222, 15, 15, 0.461)
+        }
+      .corner-left{
+            top: -150px;
+            transition: ease 1s;
+            left: 170px;
+        }
+        
+       .corner-right{
+            top: 375px;
+            transition: ease 1s;
+            left: -140px;
+        }
+        
 
     }
 
